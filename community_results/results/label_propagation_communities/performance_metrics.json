@@ -1,0 +1,16 @@
+{
+    "raw_ari": -0.0030444383498255444,
+    "raw_nmi": 0.15791874608983866,
+    "raw_homogeneity": 0.2254119871950696,
+    "raw_completeness": 0.12153002040294288,
+    "raw_v_measure": 0.1579187460898387,
+    "mapped_ari": 0.07643501823834048,
+    "mapped_nmi": 0.15994404213707922,
+    "mapped_homogeneity": 0.11471037819545156,
+    "mapped_completeness": 0.2640775655657003,
+    "mapped_v_measure": 0.15994404213707925,
+    "mapped_accuracy": 0.45329087048832273,
+    "mapped_precision": 0.5963558697848537,
+    "mapped_recall": 0.45329087048832273,
+    "mapped_f1": 0.38820641285804036
+}

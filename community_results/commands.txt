@@ -1,0 +1,11 @@
+python evaluate.py --gt_file=GT.json --result_file=fast_greedy_communities.csv --output_dir=./results/fast_greedy_communities 
+python evaluate.py --gt_file=GT.json --result_file=infomap_communities.csv --output_dir=./results/infomap_communities 
+
+python evaluate.py --gt_file=GT.json --result_file=label_propagation_communities.csv --output_dir=./results/label_propagation_communities
+
+python evaluate.py --gt_file=GT.json --result_file=leiden_communities.csv --output_dir=./results/leiden_communities 
+
+python evaluate.py --gt_file=GT.json --result_file=louvain_communities.csv --output_dir=./results/louvain_communities
+
+python evaluate.py --gt_file=GT.json --result_file=node2vec.csv --output_dir=./results/node2vec 
+
