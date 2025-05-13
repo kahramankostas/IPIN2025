@@ -165,12 +165,12 @@ def main():
     
     generate_confusion_matrix(
         y_true, y_pred_raw,
-        os.path.join(args.output_dir, 'confusion_matrix_raw.png'),
+        os.path.join(args.output_dir, 'confusion_matrix_raw.pdf'),
         'Confusion Matrix for Raw Clusters'
     )
     generate_confusion_matrix(
         y_true, y_pred_mapped,
-        os.path.join(args.output_dir, 'confusion_matrix_mapped.png'),
+        os.path.join(args.output_dir, 'confusion_matrix_mapped.pdf'),
         'Confusion Matrix for Mapped Clusters'
     )
     
