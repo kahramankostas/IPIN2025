@@ -15,7 +15,7 @@ The experiments utilize the publicly available **Huawei University Challenge 202
 - **elevations.csv**: Fingerprint pairs indicating vertical transitions (e.g., elevators or stairs).
 - **estimated_wifi_distances.csv**: Pre-estimated distances between fingerprints based on signal strength.
 - **lookup.json**: Mapping between fingerprint IDs and trajectory IDs.
-- **GI.json**: Ground-truth floor labels for a subset of trajectories.
+- **GT.json**: Ground-truth floor labels for a subset of trajectories.
 
 The dataset is clean, with no outlier fingerprints, and is publicly available. See the paper for details on accessing the preprocessed dataset.
 
