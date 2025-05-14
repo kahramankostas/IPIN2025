@@ -66,7 +66,7 @@ The codebase is organized to replicate the experiments described in the paper. K
 -  Applies K-means clustering (k=17) on embeddings and baseline community detection algorithms (Louvain, Leiden, etc.).
 - **`evaluate.py`**: Computes evaluation metrics (Accuracy, F1-score, ARI, NMI, Purity).
 
-To run the full pipeline:
+To run the `evaluate.py`:
 ```bash
 python evaluate.py --gt_file=GT.json --result_file=node2vec.csv --output_dir=./community_results/node2vec 
 ```
