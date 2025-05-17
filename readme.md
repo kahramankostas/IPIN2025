@@ -15,7 +15,7 @@ The experiments utilize the publicly available **Huawei University Challenge 202
 - **elevations.csv**: Fingerprint pairs indicating vertical transitions (e.g., elevators or stairs).
 - **estimated_wifi_distances.csv**: Pre-estimated distances between fingerprints based on signal strength.
 - **lookup.json**: Mapping between fingerprint IDs and trajectory IDs.
-- **GI.json**: Ground-truth floor labels for a subset of trajectories.
+- **GT.json**: Ground-truth floor labels for a subset of trajectories.
 
 The dataset is clean, with no outlier fingerprints, and is publicly available. See the paper for details on accessing the preprocessed dataset.
 
@@ -66,7 +66,7 @@ The codebase is organized to replicate the experiments described in the paper. K
 -  Applies K-means clustering (k=17) on embeddings and baseline community detection algorithms (Louvain, Leiden, etc.).
 - **`evaluate.py`**: Computes evaluation metrics (Accuracy, F1-score, ARI, NMI, Purity).
 
-To run the full pipeline:
+To run the `evaluate.py`:
 ```bash
 python evaluate.py --gt_file=GT.json --result_file=node2vec.csv --output_dir=./community_results/node2vec 
 ```
