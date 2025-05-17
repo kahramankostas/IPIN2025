@@ -115,8 +115,6 @@ If you use this code or dataset in your research, please cite the original paper
   publisher={TBD}
 }
 ```
-
 ## Contact
-
 For questions or inquiries, contact:
 - Kahraman Kostas: kahramankostas@gmail.com
